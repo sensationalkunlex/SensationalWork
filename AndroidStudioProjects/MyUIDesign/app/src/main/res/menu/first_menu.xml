@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/SignIn"
+        android:actionLayout="@layout/activity_first_ui"
+
+        android:title="text"
+android:icon="@drawable/delete"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="always|never"/>
+
+</menu>

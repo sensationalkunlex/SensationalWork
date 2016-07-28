@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@color/Signin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/EditBk"
+        android:layout_margin="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/BtnFacebook"
+                android:background="@color/EditBk"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/facebook"
+                android:tag="facebook"/>
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/Btntwitter"
+                android:background="@color/EditBk"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/twitter"
+                android:textAlignment="gravity"
+                />
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/BtnGoogle"
+                android:background="@color/EditBk"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/googleplus"
+                android:textAlignment="gravity"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+        android:minHeight="100dp">
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/BtnSpotify"
+                android:background="@color/EditBk"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/spotify"
+                android:tag="spotify"/>
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/Btnlastfm"
+                android:background="@color/EditBk"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/lastfm"
+                android:textAlignment="gravity"
+                />
+            <ImageButton
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/BtnEmail"
+                android:background="@color/EditBk"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/mailboxopenedflagup"
+                android:textAlignment="gravity"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Already have an account?"
+        android:layout_marginLeft="100dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Email"
+        android:height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/EditBk"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Password"
+        android:height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:drawableEnd="@android:drawable/ic_menu_help"
+        android:background="@color/EditBk"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Signin"
+        android:height="30dp"
+        android:textColor="@color/EditBk"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"/>
+
+
+</LinearLayout>

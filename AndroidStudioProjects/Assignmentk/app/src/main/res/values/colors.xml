@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF9673A</color>
+    <color name="Signin">#eef0f2</color>
+    <color name="EditBk">#ffffff</color>
+    <color name="FbBk">#FFF9673A</color>
+    EditBk
+    <color name="Coooltext">#000</color>
+    <color name="colorPrimaryDark">#FFF9673A</color>
+    <color name="colorAccent">#FFF9673A</color>
+</resources>

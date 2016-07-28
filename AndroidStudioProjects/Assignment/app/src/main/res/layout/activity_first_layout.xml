@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Signin"
+>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@android:drawable/ic_menu_add"
+        android:minHeight="60dp"
+        android:backgroundTint="@color/FbBk"
+        android:minWidth="60dp"
+
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/EditBk"
+        android:hint="Email"
+        android:height="43dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/EditBk"
+        android:hint="Password"
+        android:height="44dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="50dp"
+        android:minHeight="43dp"
+        android:drawableEnd="@android:drawable/ic_secure"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/EditBk"
+        android:text="@string/Signin"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/FbBk"
+        android:textColor="@color/EditBk"
+        android:text="@string/Fbtxt"/>
+
+</LinearLayout>

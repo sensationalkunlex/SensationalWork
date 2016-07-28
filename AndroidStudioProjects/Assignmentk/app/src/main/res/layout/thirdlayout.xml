@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+    <LinearLayout
+        android:gravity="bottom|center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Signin"
+        android:background="#aaFFFFFF"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_picker_title"
+        android:textColor="@color/EditBk"
+        android:layout_marginBottom="12dp"
+        android:background="#66FF0000"
+        android:backgroundTintMode="src_over"
+
+        />
+    </LinearLayout>
+
+</FrameLayout>

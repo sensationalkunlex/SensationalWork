@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sensational App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tesee">New Button</string>
+    <string name="ggg">Large Text</string>
+</resources>

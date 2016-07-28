@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/toolbar"
+android:background="@color/toolbarBG"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+   <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/back_go_btn"
+    android:src="@drawable/arrow"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/fullname"
+        android:textAlignment="center"
+        android:id="@+id/djfjf"
+        android:textColor="@color/white"/>
+
+
+
+</android.support.v7.widget.Toolbar>

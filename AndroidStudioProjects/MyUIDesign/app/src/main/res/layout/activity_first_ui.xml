@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/firstbg"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<include layout="@layout/toolbar_first"
+    android:id="@+id/toolbar1">
+</include>
+    <TextView
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sent_item"/>
+    <FrameLayout
+
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+<LinearLayout
+    android:layout_gravity="left|center_vertical"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+
+            android:layout_marginLeft="23dp"
+
+            android:id="@+id/profile"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/profile"
+        />
+        <TextView
+            android:layout_marginTop="13dp"
+         android:layout_marginLeft="56dp"
+         android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="You"
+    />
+</LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/arrowright"/>
+        <LinearLayout
+            android:layout_gravity="right|center_vertical"
+            android:orientation="vertical"
+            android:layout_marginRight="23dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_marginLeft="23dp"
+
+                android:id="@+id/profi"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/profile"
+                />
+            <TextView
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="56dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+
+                android:text="Friend"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detail"/>
+        <LinearLayout
+android:orientation="vertical"
+
+android:background="@color/white"
+android:layout_marginBottom="23dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+            >
+
+
+
+        <FrameLayout
+
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"/>
+            <TextView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jan. 22, 2015"/>
+            <View
+
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:background="@color/firstbg"/>
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"/>
+            <TextView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pending"/>
+            <View
+
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:background="@color/firstbg"/></FrameLayout>
+        <FrameLayout
+
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"/>
+            <TextView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$23.99"/>
+            <View
+
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:background="@color/firstbg"/>
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             >
+            <TextView
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reason"
+                />
+            <TextView
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinner"/>
+            <View
+
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:background="@color/firstbg"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
